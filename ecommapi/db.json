@@ -1,0 +1,161 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "dobleh",
+      "password": "maungapain",
+      "role": "admin"
+    },
+    {
+      "username": "budi",
+      "password": "123",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "username": "tes",
+      "password": "rahasia",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "username": "",
+      "password": "asd",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "username": "berhasil",
+      "password": "123",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "username": "asd",
+      "password": "123",
+      "role": "user",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "name": "tamiya",
+      "image": "https://static.bmdstatic.com/pk/product/medium/5d5bad2b32af2.jpg",
+      "stok": 9,
+      "kategoriId": 3,
+      "harga": 100000,
+      "deskripsi": "barang bekas saya",
+      "id": 2
+    },
+    {
+      "name": "baju hawai",
+      "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/12/13/36425091/36425091_7edcb8f5-da4b-4c8e-854f-df795499962c_1200_1200.jpg",
+      "stok": 100,
+      "kategoriId": 1,
+      "harga": 150000,
+      "deskripsi": "baju hawai serasa di hawai tinggal di pantai",
+      "id": 3
+    },
+    {
+      "name": "celana hawai",
+      "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/10/13/4934396/4934396_808858dc-1b46-4a69-856c-3979d39d30eb_1181_1387.jpg",
+      "stok": 100,
+      "kategoriId": 1,
+      "harga": 100000,
+      "deskripsi": "celana kece ",
+      "id": 4
+    },
+    {
+      "name": "baju jalan",
+      "image": "https://s1.bukalapak.com/img/6767521313/w-1000/PAKAIAN_BAJU_JALAN_SANTAI_EANITA_MODIS___FASHION_WANITA_CANT.jpg",
+      "stok": 100,
+      "kategoriId": 1,
+      "harga": 100000,
+      "deskripsi": "baju kece",
+      "id": 5
+    },
+    {
+      "name": "handphone realmy",
+      "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/1/25/0/0_f817e3cd-4d6d-40dd-9d3b-ef2ba17ef145_700_700.jpg",
+      "stok": 100,
+      "kategoriId": 2,
+      "harga": 400000,
+      "deskripsi": "handphone kece",
+      "id": 6
+    },
+    {
+      "name": "sapu lidi",
+      "image": "https://s3.bukalapak.com/img/8184534924/w-1000/sapu_lidi_gagang_kayu_cap_MACAN.jpg",
+      "stok": 120,
+      "kategoriId": 2,
+      "harga": 10000,
+      "deskripsi": "sapu harry potter",
+      "id": 7
+    },
+    {
+      "name": "Robot",
+      "image": "https://image.smythstoys.com/original/desktop/167345.jpg",
+      "stok": 100,
+      "kategoriId": 3,
+      "harga": 150000,
+      "deskripsi": "robot",
+      "id": 8
+    }
+  ],
+  "kategoris": [
+    {
+      "id": 1,
+      "nama": "pakaian"
+    },
+    {
+      "id": 2,
+      "nama": "elektronik"
+    },
+    {
+      "id": 3,
+      "nama": "mainan"
+    },
+    {
+      "id": 4,
+      "nama": "makanan"
+    }
+  ],
+  "transactions": [
+    {
+      "status": "oncart",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "status": "oncart",
+      "userId": 5,
+      "id": 2
+    }
+  ],
+  "transactiondetails": [
+    {
+      "transactionId": 2,
+      "productId": 3,
+      "qty": 1,
+      "id": 6
+    },
+    {
+      "transactionId": 2,
+      "productId": 2,
+      "qty": 5,
+      "id": 7
+    },
+    {
+      "transactionId": 2,
+      "productId": 4,
+      "qty": 1,
+      "id": 8
+    },
+    {
+      "transactionId": 2,
+      "productId": 4,
+      "qty": 1,
+      "id": 9
+    }
+  ]
+}
